@@ -1,16 +1,3 @@
-getgenv().PoseSetting = {
-    ['Poses'] = {
-        ["Pose1"] = {Enabled = true, Key = "Q"},
-        ["Pose2"] = {Enabled = true, Key = "X"},
-		["Pose3"] = {Enabled = true, Key = "B"},
-		["Pose4"] = {Enabled = true, Key = "J"},
-		["Pose5"] = {Enabled = true, Key = "L"},
-		["Pose6"] = {Enabled = true, Key = "T"},
-		["Pose7"] = {Enabled = true, Key = "K"},
-		["Pose8"] = {Enabled = true, Key = "M"},
-    }
-}
-
 --// Pose Framework 1.0.0 \\--
 
 if not game['Loaded'] or not game:GetService("Players").LocalPlayer then 
